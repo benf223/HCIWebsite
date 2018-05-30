@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Analysis &mdash; Ergo-mouse vs. Normal</title>
+
+	<link rel="stylesheet" href="http://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="lib/materialize/css/materialize.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class="blue lighten-3">
+	<nav>
+		<div class="nav-wrapper blue lighten-1">
+			<div class="container">
+				<a href="#" class="brand-logo left hide-on-med-and-down">Mouse vs. Touch</a>
+				<ul id="nav-mobile" class="right">
+					<li><a href="index.html">Introduction</a></li>
+					<li><a href="experiment.html">Experiment</a></li>
+					<li><a href="findings.html">Findings</a></li>
+					<li class="active"><a href="analysis.html">Analysis</a></li>
+					<li><a href="conclusion.html">Conclusion</a></li>
+					<li><a href="reflection.html">Reflection</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="card-panel">
+			<section>
+				<div class="row">
+					<div class="col s10 offset-s1">
+						<h4>Comparison of Multiple Regression Statistics</h4>
+						<p>
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s10 offset-s1">
+						<h5>Mouse input</h5>
+						<p><img data-caption="Multiple Regression of Mouse Data" class="materialboxed fill-x" src="resource/regression-mouse.jpg"></p>
+						<p>
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s10 offset-s1">
+						<h5>Touch input</h5>
+						<p><img data-caption="Multiple Regression of Touch Data" class="materialboxed fill-x" src="resource/regression-touch.jpg"></p>
+						<p>
+						</p>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="row">
+					<div class="col s10 offset-s1">
+						<h4>Isolated x Variable Regression Comparisons</h4>
+						<p>
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s10 offset-s1">
+						<h5>Time Taken (s) vs. Radius (px)</h5>
+						<p><img data-caption="Regression Showing Time Taken vs. Radius" class="materialboxed fill-x" src="resource/time_vs_radius.jpg"></p>
+						<p>
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s10 offset-s1">
+						<h5>Time Taken (s) vs. Displacement (px)</h5>
+						<p><img data-caption="Regression Showing Time Taken vs. Displacement" class="materialboxed fill-x" src="resource/time_vs_displacement.jpg"></p>
+						<p>
+						</p>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+
+	<script src="lib/jquery.min.js"></script>
+	<script src="lib/jquery-ui.min.js"></script>
+	<script src="lib/materialize/js/materialize.min.js"></script>
+	<script src="lib/highcharts.js"></script>
+	<script src="lib/highcharts-3d.js"></script>
+	<script src="lib/highcharts-exporting.js"></script>
+
+	<script src="data/data.js"></script>
+</body>
+</html>
